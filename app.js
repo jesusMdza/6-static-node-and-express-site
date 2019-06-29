@@ -1,20 +1,13 @@
 const express = require('express');
-const projectData = require('./data.json');
 const app = express();
 
 app.set('view engine', 'pug');
+
+const mainRoutes = require('./routes');
+const projectsRoute = require('./routes/project');
+
 app.use('/static', express.static('public'));
-
-app.get('/', (req, res) => {
-    res.render('index');
-});
-
-app.get('/about', (req, res) => {
-    
-});
-
-app.get('/project', (req, res) => {
-    
-});
+app.use(mainRoutes);
+app.use('/project', projectsRoute);
 
 app.listen(3000);
