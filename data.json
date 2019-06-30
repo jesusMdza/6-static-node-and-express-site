@@ -3,56 +3,56 @@
         {
             "id": 0,
             "project_name": "Random Quote Generator",
-            "description": "A program that generates a random quote from a list of five every fifteen seconds.",
-            "technologies": "[HTML, CSS, JavaScript]",
+            "description": "A program that generates a random quote from a list of five every thirteen seconds.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://jesusmdza.github.io/1-random-quote-generator/",
             "github_link": "https://github.com/jesusMdza/1-random-quote-generator",
-            "image_urls": "['/views/images/1-purple.png', '/views/images/1-red.png']"
+            "image_urls": ["1-purple.png", "1-red.png"]
         },
         {
             "id": 1,
             "project_name": "List Pagination and Filtering",
             "description": "A list of students which have been paginated to display ten students at a time. Includes a search bar which will return student info in real time.",
-            "technologies": "[HTML, CSS, JavaScript]",
+            "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://jesusmdza.github.io/2-pagination-and-filtering/",
             "github_link": "https://github.com/jesusMdza/2-pagination-and-filtering",
-            "image_urls": "['/views/images/2-page.png','/views/images/2-search.png','/views/images/2-err.png']"
+            "image_urls": ["2-page.png","2-search.png","2-err.png"]
         },
         {
             "id": 2,
             "project_name": "Interactive Form",
             "description": "An engaging, interactive fill out form to a faux conference event. Data is processed and validated. Equipped with real-time error messages.",
-            "technologies": "[HTML, CSS, jQuery]",
+            "technologies": ["HTML", "CSS", "jQuery"],
             "live_link": "https://jesusmdza.github.io/3-interactive-form/",
             "github_link": "https://github.com/jesusMdza/3-interactive-form",
-            "image_urls": "['/views/images/3-main.png','/views/images/3-activity.png','/views/images/3-err.png']"
+            "image_urls": ["3-main.png","3-activity.png","3-err.png"]
         },
         {
             "id": 3,
             "project_name": "OOP Game Show App",
             "description": "A 'Game Show' like application that gives a user five chances to guess from a series of popular phrases. Object-Oriented Programming was used to keep the project neat and orderly.",
-            "technologies": "[CSS, JavaScript, OOP]",
+            "technologies": ["CSS", "JavaScript", "OOP"],
             "live_link": "https://jesusmdza.github.io/4-oop-game-show-app/",
             "github_link": "https://github.com/jesusMdza/4-oop-game-show-app",
-            "image_urls": "['/views/images/4-main.png','/views/images/4-game.png','/views/images/4-tryagain.png', '/views/images/4-congrats.png]"
+            "image_urls": ["4-main.png","4-game.png","4-tryagain.png", "4-congrats.png"]
         },
         {
             "id": 4,
             "project_name": "Public API Requests",
             "description": "An application that displays a list of cards with random employee data. Data was extracted from the free open source 'randomuser' API. Each card provides more info when clicked and lets the user cycle through the current cards displayed on the page.",
-            "technologies": "[JavaScript, JSON, API]",
+            "technologies": ["JavaScript", "JSON", "API"],
             "live_link": "https://jesusmdza.github.io/5-public-api-requests/",
             "github_link": "https://github.com/jesusMdza/5-public-api-requests",
-            "image_urls": "['/views/images/5-main.png','/views/images/5-modal.png','/views/images/5-search.png', '/views/images/5-err.png']"
+            "image_urls": ["5-main.png","5-modal.png","5-search.png", "5-err.png"]
         },
         {
             "id": 5,
             "project_name": "le grain de cafe",
             "description": "'le grain de cafe' is a pseudo coffee business that wants to spread their message and great coffee to the world.",
-            "technologies": "[CSS, JavaScript, jQuery]",
+            "technologies": ["CSS", "JavaScript", "jQuery"],
             "live_link": "https://jesusmdza.github.io/le-grain-de-cafe/index.html",
             "github_link": "https://github.com/jesusMdza/le-grain-de-cafe",
-            "image_urls": "['/views/images/6-main.png','/views/images/6-prod.png','/views/images/6-loc.prod','/views/images/6-form.png']"
+            "image_urls": ["6-main.png","6-prod.png","6-loc.png","6-form.png"]
         }
     ]
 }
