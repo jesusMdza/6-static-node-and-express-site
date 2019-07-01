@@ -3,7 +3,15 @@ const router = express.Router();
 const jsonData = require('../data.json');
 const projects = jsonData.projects;
 
+router.get('/', (req, res) => {
+    res.redirect('/project/0');
+});
+
 router.get('/:id', (req, res) => {
+    if (req.params.id >= projects.length || isNaN(req.params.id)) {
+        res.redirect('/project/0');
+    }
+
     const id = req.params.id;
     const title = projects[id].project_name;
     const description = projects[id].description;
