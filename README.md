@@ -1,3 +1,7 @@
+Project: Static Node and Express Site
+
+fix mobile view
+
 CSS Changes:
 
 
