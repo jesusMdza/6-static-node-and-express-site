@@ -456,6 +456,7 @@ img {
   vertical-align: middle;
   max-width: 100%;
   height: auto;
+  border-radius: 50%;
   -ms-interpolation-mode: bicubic; }
 
 textarea {

@@ -1,10 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo|Libre+Franklin&display=swap');
 
-h1,h2,h3,h4,h5,p{
-  font-family: 'Merriweather', serif;
+h1,h2,h3,h4,h5{
+  font-family: 'Heebo', serif;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: 'Libre Franklin';
 }
 
   h5{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Heebo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
@@ -27,7 +33,7 @@ h1,h2,h3,h4,h5,p{
 }
 
 .text-light{
-  color: #666;
+  color: #8F8F8F;
 }
 
 .button{
@@ -58,8 +64,8 @@ a:hover{
 
 .portfolio-me{
   padding: 20px;
-  background: #121213;
-  color: #fff;
+  background: #f2f2f2;
+  color: #000;
   box-shadow: none !important;
 }
 
@@ -99,11 +105,10 @@ a:hover{
 
 .portfolio-intro{
   margin: 0;
-  padding: 40px 50px 30px;
+  padding: 60px 100px 30px;
 }
 
 .portfolio-intro p{
-  border-bottom: 1px solid #eaeaea;
   padding-bottom: 40px;
 }
 
