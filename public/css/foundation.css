@@ -454,7 +454,7 @@ body {
 img {
   display: inline-block;
   vertical-align: middle;
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
   border-radius: 50%;
   -ms-interpolation-mode: bicubic; }
@@ -541,7 +541,8 @@ textarea {
       flex: 0 0 auto;
   min-height: 0px;
   min-width: 0px;
-  width: 100%; }
+  width: 100%;
+  text-align: center; }
   .cell.auto {
     -ms-flex: 1 1 0px;
         flex: 1 1 0px; }
@@ -2256,7 +2257,8 @@ h3, .h3 {
   font-size: 1.1875rem;
   line-height: 1.4;
   margin-top: 0;
-  margin-bottom: 0.5rem; }
+  margin-bottom: 0.5rem;
+  text-align: left; }
 
 h4, .h4 {
   font-size: 1.125rem;
@@ -2267,7 +2269,7 @@ h4, .h4 {
 h5, .h5 {
   font-size: 1.0625rem;
   line-height: 1.4;
-  margin-top: 0;
+  margin-top: 15px;
   margin-bottom: 0.5rem; }
 
 h6, .h6 {
@@ -2278,7 +2280,7 @@ h6, .h6 {
 
 @media print, screen and (min-width: 40em) {
   h1, .h1 {
-    font-size: 3rem; }
+    font-size: 4rem; }
   h2, .h2 {
     font-size: 2.5rem; }
   h3, .h3 {
@@ -2322,7 +2324,10 @@ li {
 
 ul {
   margin-left: 1.25rem;
-  list-style-type: disc; }
+  list-style-type: disc;
+  text-align: left;
+  list-style-type: none;
+  margin: 0; }
 
 ol {
   margin-left: 1.25rem; }
@@ -4613,7 +4618,7 @@ html.is-reveal-open body {
     .reveal.large {
       width: 90%;
       max-width: 75rem; } }
-  .reveal.full {
+  .reveal.fl {
     top: 0;
     left: 0;
     width: 100%;
@@ -4989,7 +4994,6 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
   display: inline-block;
   max-width: 100%;
   margin-bottom: 1rem;
-  border: solid 4px #fefefe;
   border-radius: 0;
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
   line-height: 0; }

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Heebo|Libre+Franklin&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Heebo:700|Libre+Franklin&display=swap');
 
 h1,h2,h3,h4,h5{
   font-family: 'Heebo', serif;
@@ -11,7 +11,6 @@ p {
 
   h5{
     font-family: 'Heebo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
   }
@@ -56,9 +55,7 @@ a:hover{
   display: inline-block;
   max-width: 100%;
   margin-bottom: 1rem;
-  border: solid 4px #fefefe;
   border-radius: 0;
-  box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
   line-height: 0;
 }
 
@@ -66,6 +63,7 @@ a:hover{
   padding: 20px;
   background: #f2f2f2;
   color: #000;
+  width: 16%;
   box-shadow: none !important;
 }
 
@@ -91,7 +89,6 @@ a:hover{
 .portfolio-breadcrumb{
   margin: 0;
   padding: 20px;
-  border-bottom: 1px solid #eaeaea;
 }
 
  .portfolio-breadcrumb a{
@@ -105,7 +102,7 @@ a:hover{
 
 .portfolio-intro{
   margin: 0;
-  padding: 60px 100px 30px;
+  padding: 100px 100px 30px;
 }
 
 .portfolio-intro p{
@@ -114,7 +111,7 @@ a:hover{
 
 .portfolio-index{
   margin: 0;
-  padding: 10px 50px;
+  padding: 10px 50px 0px 100px;
 }
 
   .portfolio-index .thumbnail{
@@ -130,11 +127,11 @@ a:hover{
   }
 
     .portfolio-index .cell h5{
-      letter-spacing: 1px;
+      letter-spacing: 0px;
     }
 
 .portfolio-meta{
-  padding-left: 20px;
+  padding-left: 60px;
 }
 
   .portfolio-meta .button{
@@ -152,4 +149,5 @@ a:hover{
 
 .portfolio-bio{
     line-height: 25px;
+    text-align: left;
 }
