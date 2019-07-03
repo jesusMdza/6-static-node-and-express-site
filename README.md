@@ -58,11 +58,9 @@ img
 .thumbnail
  --removed border--
 
-h3
- text-align: left
-
 h5
  margin-top: 15px
+ text-align: left
 
 .portfolio-bio
   text-align: left
