@@ -63,7 +63,6 @@ a:hover{
   padding: 20px;
   background: #f2f2f2;
   color: #000;
-  width: 16%;
   box-shadow: none !important;
 }
 
@@ -150,4 +149,24 @@ a:hover{
 .portfolio-bio{
     line-height: 25px;
     text-align: left;
+}
+
+@media (max-width: 1493px) {
+
+  .portfolio-intro,
+  .portfolio-index {
+    padding: 10px;
+  }
+
+  .portfolio-meta {
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+
+  .portfolio-intro,
+  .portfolio-index {
+    padding: 10px;
+  }
 }

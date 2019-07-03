@@ -13,7 +13,6 @@ STYLE CSS ------------
 .portfolio.me
  background: #f2f2f2
  color: #fff
- width: 16%
 
 h1,h2,h3,h4,h5 
  font-family: 'Heebo'
@@ -47,7 +46,7 @@ h5
 .portfolio-meta
   padding-left: 60px
 
-
+added media queries
 
 
 FOUNDATION CSS -----------
