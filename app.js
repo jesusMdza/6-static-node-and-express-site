@@ -49,4 +49,4 @@ app.use((err, req, res, next) => {
 
 
 // creates a local server and listens for user requests at port 3000
-// app.listen(4000, console.log('listening on port 4000!'));
+app.listen(4000, console.log('listening on port 4000!'));
